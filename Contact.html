@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Contact</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style contact.css">
+    </head>
+     <!-- Haut de page -->
+        <header>
+            <img src="..\Site watine/Images/image 1.png" alt="logo" width="100" height="100">
+            <img src="..\Site watine/Images/gite logo.png">
+            <p>
+              	<!-- texte a ajouter si besoin -->
+            </p>
+        </header>
+
+        <!-- Menue de navigation -->
+        <nav class="Menu">
+            <ul>
+                <li class="btn">
+                    <a href="index.html">
+                        Accueil
+                    </a> 
+                </li>
+                <li class="btn">
+                    <a href="Apropos.html">
+                        A propos
+                    </a> 
+                </li>
+                <li class="btn">
+                    <a href="Nos Chambres.html">
+                        Nos Chambres
+                    </a> 
+
+                </li>
+                <li class="btn">
+                    <a href="Tarifs.html">
+                        Nos Tarifs
+                    </a> 
+                </li>
+                <li class="btn">
+                    <a href="Activitées.html">
+                        Les Activités
+                    </a> 
+                </li>
+                <li class="btn">
+                    <a href="Contact.html">
+                        Contact
+                    </a> 
+                </li>
+                <li class="btn">
+                    <a href="Mentions Légales.html">
+                        Mentions Légales
+                    </a> 
+                </li>
+            </ul>
+        </nav>
+
+<!-- tableau conctact -->
+<div class="Leftbox">
+
+<form action="https://formspree.io/f/xbjpwzgq" method="POST"> <!--Formulaire relié a Formspee qui réceptionne les formulaires et m envoie le contenu par mail -->
+            <fieldset>
+
+         <!-- civilité valeur défault Madame avec monsieur ou madame -->
+		<label for="pet-select">Civilité</label>
+		<select name="pets" id="pet-select">
+		    <option value="">Madame</option>
+		    <option value="">Monsieur</option>
+		</select>
+	<form class="webform-client-form webform-client-form-24 form-horizontal" action="/nous-contacter" method="post" id="webform-client-form-24" accept-charset="UTF-8"><div><div class="form-group textfield edit-submitted-nom"><label for="edit-submitted-nom" class="control-label">Nom<span class="form-required" title="Ce champ est requis."> *</span></label><div  class="form-item webform-component webform-component-textfield webform-component--nom">
+	 <input required="required" class="form-control form-text required" type="text" id="edit-submitted-nom" name="submitted[nom]" value="" size="60" maxlength="128" />
+	</div>
+	<div><div class="form-group textfield edit-submitted-nom"><label for="edit-submitted-nom" class="control-label">Prénom<span class="form-required" title="Ce champ est requis."> *</span></label><div  class="form-item webform-component webform-component-textfield webform-component--nom">
+	 <input required="required" class="form-control form-text required" type="text" id="edit-submitted-nom" name="submitted[nom]" value="" size="60" maxlength="128" />
+	</div>
+	<div><div class="form-group textfield edit-submitted-nom"><label for="edit-submitted-nom" class="control-label">Adresse<span class="form-required" title="Ce champ est requis."> *</span></label><div  class="form-item webform-component webform-component-textfield webform-component--nom">
+	 <input required="required" class="form-control form-text required" type="text" id="edit-submitted-nom" name="submitted[nom]" value="" size="60" maxlength="128" />
+	</div>
+	<!-- 5 caractères max a changer -->
+	<div><div class="form-group textfield edit-submitted-nom"><label for="edit-submitted-nom" class="control-label">Code Postal<span class="form-required" title="Ce champ est requis."> *</span></label><div  class="form-item webform-component webform-component-textfield webform-component--nom">
+	 <input required="required" class="form-control form-text required" type="text" id="edit-submitted-nom" name="submitted[nom]" value="" size="60" maxlength="128" name='code' type='number_format' maxlength="5" placeholder="5 caractères max" required autofocus pattern="[0-9]{5}">
+	</div>
+	<!--                             -->
+	<div><div class="form-group textfield edit-submitted-nom"><label for="edit-submitted-nom" class="control-label">Ville<span class="form-required" title="Ce champ est requis."> *</span></label><div  class="form-item webform-component webform-component-textfield webform-component--nom">
+	 <input required="required" class="form-control form-text required" type="text" id="edit-submitted-nom" name="submitted[nom]" value="" size="60" maxlength="128" />
+	</div>
+
+	<!-- Proposition Belg/ Canada / FR / obligatoire -->
+	<label for="pet-select">Pays</label>
+	<select name="pets" id="pet-select">
+	    <option value="">France</option>
+	    <option value="">Belgique</option>
+	    <option value="">Canada</option>
+	</select>
+	<!--                             -->
+
+	<div><div class="form-group textfield edit-submitted-nom"><label for="edit-submitted-nom" class="control-label">Téléphone<span class="form-required" title="Ce champ est requis."> *</span></label><div  class="form-item webform-component webform-component-textfield webform-component--nom">
+	 <input type="tel" pattern="^((+\d{1,3}(-| )?(?\d)?(-| )?\d{1,5})|((?\d{2,6})?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" id="tel" name="tel" required>
+	</div>
+
+	</div><div class="form-group webform_email edit-submitted-e-mail"><label for="edit-submitted-e_mail" class="control-label">E-Mail<span class="form-required" title="Ce champ est requis."> *</span></label><div  class="form-item webform-component webform-component-email webform-component--e-mail">
+	 <input required="required" class="email form-control form-text form-email required" type="email" id="edit-submitted-e-mail" name="submitted[e_mail]" size="60" />
+	</div>
+
+<!-- Proposition calendrier + obligatoire -->
+	<label for="start">Date d'arrivée :</label> 
+	<input type="date" id="start" name="trip-start">
+	<span class="form-required" title="Ce champ est requis."> *</span></label><div>
+	<!-- <input required="required" /*class="form-control form-text required" type="text" id="edit-submitted-nom" name="submitted[nom]" value="" size="" maxlength=""/* /> -->
+
+	<!-- Proposition calendrier + obligatoire -->
+	<label for="start">Date de Départ :</label> 
+	<input type="date" id="start" name="trip-start">
+	<span class="form-required" title="Ce champ est requis."> *</span></label><div>
+	<!-- <input required="required" /*class="form-control form-text required" type="text" id="edit-submitted-nom" name="submitted[nom]" value="" size="" maxlength=""/* /> -->
+
+	<!-- Menu déroulant + obligatoire -->
+	<label for="pet-select">Nombre d'adultes</label>
+	<select name="pets" id="pet-select">
+	    <option value=""> 1 </option>
+	    <option value="">2</option>
+	    <option value="">3</option>
+	    <option value="">4</option>
+	    <option value="">5</option>
+	    <option value="">6</option>
+	</select>
+
+	<!-- Menu déroulant + obligatoire -->
+	<label for="pet-select">Nombre d'enfants</label>
+	<select name="pets" id="pet-select">
+	    <option value="">--Nombre--</option>
+	    <option value="">1</option>
+	    <option value="">2</option>
+	    <option value="">3</option>
+	    <option value="">4</option>
+	    <option value="">5</option>
+	    <option value="">6</option>
+	</select>
+
+	</div><div class="form-group textfield edit-submitted-sujet"><label for="edit-submitted-sujet" class="control-label">Sujet</label><div  class="form-item webform-component webform-component-textfield webform-component--sujet">
+	 <input class="form-control form-text" type="text" id="edit-submitted-sujet" name="submitted[sujet]" value="" size="60" maxlength="128" />
+	</div>
+	</div><div class="form-group textarea edit-submitted-message"><label for="edit-submitted-message" class="control-label">Votre message</label><div  class="form-item webform-component webform-component-textarea webform-component--message">
+	 <div class="form-textarea-wrapper resizable"><textarea class="form-control form-textarea" id="edit-submitted-message" name="submitted[message]" cols="60" rows="5"></textarea></div>
+	</div>
+	<!--  bouton effacer + renvoyer mail (internet nessecaire et pas au point)  -->
+	<input type="submit" value="Envoyer" />
+	<input type="hidden" name="details[sid]" />
+	<input type="hidden" name="details[page_num]" value="1" />
+	<input type="hidden" name="details[page_count]" value="1" />
+	<input type="hidden" name="details[finished]" value="0" />
+	<input type="hidden" name="form_build_id" value="form-Su0LHCB14nSzEwTkz8IEpcM6ii87ular_WbGLEmJfyw" />
+	<input type="hidden" name="form_id" value="webform_client_form_24" />
+	<input type="hidden" name="captcha_token" value="36661bed900cb7ccd046e90c38eaab13" />
+	<input type="hidden" name="captcha_response" value="Google no captcha" />
+
+	<input type="reset" value="Effacer"/>
+</div>	

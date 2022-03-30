@@ -1,0 +1,120 @@
+
+div#contenue div{
+    /*display: inline-block;*/
+    width: 48%
+}
+
+
+
+/* left box */
+div#contenue div.Leftbox{
+    vertical-align: top;
+}
+
+div#contenue div.Leftbox h1{
+    padding-left: 730px;
+    padding-bottom: 760px;
+    margin: 100px;
+    text-decoration: underline;
+    width: 20em;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 300;
+}
+
+div#contenue div.Leftbox p{
+    margin: 20px;
+    padding-left: 670px;
+}
+
+
+
+
+/* right box */
+div#contenue div.Rightbox{
+
+}
+
+div#contenue div.Rightbox h1{
+    padding-left: 100px;
+    text-decoration: underline;
+}
+
+div#contenue div.Rightbox p{
+    padding-left: 100px;
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 100px;
+}
+
+div#contenue div.Rightbox img{
+    position: absolute;
+    top: 1450px;
+    left: 1400px;
+    width: 200px;
+    height: 300px;
+
+}
+
+
+/*menu nav*/
+
+nav.Menu{
+    position: absolute;
+    top: 110px;
+    left: 530px;
+}
+
+nav.Menu ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+
+    justify-content: space-between;
+}
+
+nav.Menu ul li.btn a{
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffff;
+    padding: 20px;
+
+}
+
+body{
+
+    background: url(../Images/StMalo.jpg) no-repeat;
+    background-size: 1980px;
+    background-color: #0000;
+    width: 860px;
+    margin:0 auto;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    margin-bottom:2em;
+}
+
+nav.Menu ul li.btn:hover a{
+    color: #000000;
+    background-color: #0E8FE3;
+    transition: 0.90s all;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    /*background-color: #fff;*/
+    margin-left: 10px;
+    padding-left: 30px;
+}
+
+header, p{
+    padding-bottom: 20px;
+
+}
+
+footer{
+    background-color: #000000;
+    color: #777;
+    opacity: 0.7;
+}

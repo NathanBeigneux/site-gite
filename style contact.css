@@ -1,0 +1,76 @@
+
+/*position pour barre nav*/
+footer, p{
+    position: absolute;
+    top: 200px;
+    left: 550px;
+/*    width: 200px;
+    height: 300px;*/
+}
+
+/*menu nav*/
+
+nav.Menu{
+    position: absolute;
+    top: 110px;
+    left: 530px;
+}
+
+nav.Menu ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+nav.Menu ul li.btn a{
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffff;
+    padding: 20px;
+
+}
+
+/*corps*/
+body{
+
+    background: url(../Images/hotel-saint-malo-hotel-adresse-saint-malo.jpg) no-repeat;
+    background-size: 1920px;
+    background-color: #0000;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+    padding-left: 30px;
+    position: absolute;
+    top: 2px;
+    left: 550px;
+
+}
+
+header, p{
+    padding-bottom: 10px;
+}
+
+/* les box*/
+div.Rightbox{
+    position: absolute;
+    top: 565px;
+    left: 1200px;
+    font-size: 1.2em;
+}
+
+div.Leftbox{
+    position: absolute;
+    top: 170px;
+    left: 720px;
+}
+
+div.Leftbox label{
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+

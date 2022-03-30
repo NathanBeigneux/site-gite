@@ -1,0 +1,92 @@
+/*menu nav*/
+
+nav.Menu{
+    position: absolute;
+    top: 110px;
+    left: 530px;
+}
+
+
+nav.Menu ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+nav.Menu ul li.btn a{
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffff;
+    padding: 20px;
+
+}
+
+/*corps*/
+body{
+
+    background: url(../Images/le-port-du-masque-est.jpg) no-repeat;
+    background-size: 1920px;
+/*    background-size: 1980px;*/
+    background-color: #0000;
+    width: 860px;
+    margin:0 auto;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+     margin-bottom:2em;
+}
+
+
+nav.Menu ul li.btn:hover a{
+    color: #000000;
+    background-color: #0E8FE3;
+    transition: 0.90s all;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    /*background-color: #fff;*/
+    margin-left: 10px;
+    padding-left: 30px;
+}
+
+header, p{
+    padding-bottom: 10px;
+}
+
+/* mail*/
+
+div.mailtbox {
+    position: absolute;
+    top: 867px;
+    left: 820px;
+    font: 1rem 'Fira Sans', sans-serif;*/
+}
+
+/* les box img */
+
+div.Imgbox{
+    position: absolute;
+    top: 700px;
+    left: 720px;
+}
+
+div.ImgPlanbox{
+    position: absolute;
+    top: 370px;
+    left: 700px;
+}
+
+/*text*/
+
+div.Textbox{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+border: solid;
+background-color: white;
+width: 770px;
+height: 150px;
+text-align: center;
+}

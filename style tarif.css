@@ -1,0 +1,89 @@
+/*menu nav*/
+
+nav.Menu{
+    position: absolute;
+    top: 110px;
+    left: 440px;
+}
+
+nav.Menu ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+nav.Menu ul li.btn a{
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffff;
+    padding: 20px;
+
+}
+
+body{
+
+    background: url(../Images/17470011.jpg) no-repeat;
+    background-size: 1980px;
+    background-color: #0000;
+    width: 1040px;
+    margin:0 auto;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    margin-bottom:2em;
+}
+
+
+nav.Menu ul li.btn:hover a{
+    color: #000000;
+    background-color: #0E8FE3;
+    transition: 0.90s all;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    /*background-color: #fff;*/
+    margin-left: 10px;
+    padding-left: 30px;
+}
+
+header, p{
+    padding-bottom: 10px;
+}
+
+/* les box img, text, ...*/
+div.Imgbox{
+    position: absolute;
+    top: 200px;
+    left: 750px;
+}
+
+div.ImgTarifbox{
+    position: absolute;
+    top: 650px;
+    left: 505px;
+}
+
+div.Textbox{
+    position: absolute;
+    top: 400px;
+    left: 510px;
+border: solid;
+background-color: white;
+width: 770px;
+height: 200px;
+text-align: justify;
+font-family: American Typewriter, serif;
+}
+
+div.Titrebox{
+    border: solid;
+    text-decoration: underline;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+
+}
